@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_29b7653c955bc5a0b8103543964fcd13b2d346d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_93a3fdeb511fd7bf311d81c9e090253bd90a97ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_52fefecb7923bc374c3d7403a71ae7dc093b64dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_7a7f541e514d85856ebb942aa7ed2305d4262ae2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_900125ae9476ba988e10b09b80da39b2bd0236d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e87e79ca6356001aab078a7b7e18eda3b83962b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_dafe1926fd9326b1791a786e3eb6a70616367b65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_acd3429d145bfb1d88012ea73d41f44451aa8168\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_76226ee0604a08a5d264bfd0e16f4707b4cefcc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a3837f0e3e239cf3cbef9be001a618a8eb32aaff">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_51314a092d67ffc48a79b975b11edb846724a7b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_8523a46bd8f7a57d2f817cf24eff335a4de8b8ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a7a6a97c2344fd225d3696b9cb6512f4c3e34a57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_d970611fa8e1569456b36fc10290deb60f6e0509\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b2767ca34e8a6cd62726f6a78382dde0cc8f4550\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_a8d0b40e2dd90ac1bfaa9e3a542b1d829f5e11df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_06aec125180c4c82e67c2d14a7b4c21e4d85a017\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="95293c82df1eb184dbffc7a15157c35881748f4d">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5492d8d250e482d7fcd5767a61508b7d4456d36d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5f362a45a8e6c65e2d02ffdfe5051dfcf373df50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Brenden\AndroidStudioProjects\AnagramApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_704abf9e93c6d824b00a4af382a7875c13add166\classes.dex" />
+    </item>
+
+</items>
