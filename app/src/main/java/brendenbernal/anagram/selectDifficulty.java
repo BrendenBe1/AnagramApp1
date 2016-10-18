@@ -99,6 +99,7 @@ public class selectDifficulty extends AppCompatActivity {
             @Override
             public void onClick (View v)
             {
+                intent.putExtra("name", getIntent().getStringExtra("name"));
                 startActivity(intent);
             }
         });

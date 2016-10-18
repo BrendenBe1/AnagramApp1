@@ -20,7 +20,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-import static brendenbernal.anagram.R.id.textView;
+import static brendenbernal.anagram.R.id.yourName;
+import static brendenbernal.anagram.R.id.yourScore;
 import static brendenbernal.anagram.R.id.time;
 
 
@@ -79,7 +80,7 @@ public class playGame extends AppCompatActivity {
         }
         catch(IOException ex)
         {
-            ex.printStackTrace();;
+            ex.printStackTrace();
         }
         return wordArray;
 
@@ -126,15 +127,15 @@ public class playGame extends AppCompatActivity {
 
         int maxTime = 0;
         // set progress bar max based on spinner
-        if(difficulty == "easy")
+        if(difficulty.equals("Easy"))
         {
             progressBar.setMax(30);
             maxTime = 30000;
         }
-        else if(difficulty == "intermediate")
+        else if(difficulty.equals("Intermediate"))
         {
-            progressBar.setMax(15);
-            maxTime = 15000;
+            progressBar.setMax(20);
+            maxTime = 20000;
         }
         else
         {
@@ -157,7 +158,10 @@ public class playGame extends AppCompatActivity {
                 timeToPlay++;
                 progressBar.setProgress(timeToPlay);
 
-                startActivity(new Intent(getApplicationContext(), viewResults.class));
+                Intent intent = new Intent(getApplicationContext(), viewResults.class);
+                intent.putExtra("name", getIntent().getStringExtra("name"));
+                intent.putExtra("score", textViewScore.getText().toString());
+                startActivity(intent);
 
             }
         };

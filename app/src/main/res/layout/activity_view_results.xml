@@ -35,15 +35,36 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="Name --- Score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:id="@+id/yourScore"
         android:minWidth="300dp"
         android:minHeight="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="143dp"
         android:gravity="center_vertical|center"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:layout_marginBottom="117dp"
+        android:layout_above="@+id/buttonResultsExit"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="you scored:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/yourScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:id="@+id/textView4"
+        android:textSize="42sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yourName"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:gravity="center"
+        android:textSize="42sp"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

@@ -11,117 +11,117 @@
     tools:context="brendenbernal.anagram.highScores"
     android:background="@android:color/holo_blue_dark">
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:minHeight="108dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:text="High Scores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:textSize="25sp"
+                android:textStyle="normal|bold"
+                android:gravity="top|center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score1"
+                android:minHeight="40dp"
+                android:minWidth="600dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score2"
+                android:minHeight="40dp"
+                android:minWidth="350dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score3"
+                android:minHeight="40dp"
+                android:minWidth="350dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score4"
+                android:minHeight="40dp"
+                android:minWidth="350dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score5"
+                android:minHeight="40dp"
+                android:minWidth="350dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
     <Button
         android:text="Back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_blue_bright"
         android:textSize="24sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="442dp"
-        android:id="@+id/buttonBackHighScores" />
-
-    <TextView
-        android:text="High Scores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
-        android:textSize="25sp"
-        android:textStyle="normal|bold"
-        android:gravity="top|center" />
-
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:minHeight="50dp" >
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:minHeight="50dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/score1"
-                android:minHeight="50dp"
-                android:minWidth="350dp"
-                android:gravity="center_vertical|center_horizontal"
-                android:textSize="20sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:minHeight="50dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/score2"
-                android:minHeight="50dp"
-                android:minWidth="350dp"
-                android:gravity="center_vertical|center_horizontal"
-                android:textSize="20sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:minHeight="50dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/score3"
-                android:minHeight="50dp"
-                android:minWidth="350dp"
-                android:gravity="center_vertical|center_horizontal"
-                android:textSize="20sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:minHeight="50dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/score4"
-                android:minHeight="50dp"
-                android:minWidth="350dp"
-                android:gravity="center_vertical|center_horizontal"
-                android:textSize="20sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:minHeight="50dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/score5"
-                android:minHeight="50dp"
-                android:minWidth="350dp"
-                android:gravity="center_vertical|center_horizontal"
-                android:textSize="20sp" />
-        </TableRow>
-    </TableLayout>
+        android:id="@+id/buttonBackHighScores"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
