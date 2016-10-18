@@ -15,24 +15,13 @@
         android:text="ANAGRAMS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
         android:id="@+id/Title"
         android:textSize="36sp"
         android:textStyle="normal|bold"
         android:fontFamily="sans-serif"
         android:background="@android:color/holo_blue_dark"
-        android:textColor="@color/colorPrimaryDark" />
-
-    <Button
-        android:text="Play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_bright"
-        android:id="@+id/buttonPlay"
-        android:textSize="24sp"
-        android:layout_centerVertical="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -43,9 +32,8 @@
         android:id="@+id/buttonAbout"
         android:textSize="24sp"
         android:layout_marginEnd="73dp"
-        android:layout_alignBaseline="@+id/buttonHighScore"
-        android:layout_alignBottom="@+id/buttonHighScore"
-        android:layout_alignEnd="@+id/buttonPlay" />
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/buttonHighScore" />
 
     <Button
         android:text=" High Score "
@@ -54,7 +42,28 @@
         android:id="@+id/buttonHighScore"
         android:textSize="24sp"
         android:background="@android:color/holo_blue_bright"
-        android:layout_marginBottom="31dp"
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/buttonPlay" />
+
+    <Button
+        android:text="Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/buttonPlay"
+        android:textSize="24sp"
+        android:layout_above="@+id/buttonAbout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/enterName"
+        android:hint="Enter Name:"
+        android:layout_above="@+id/buttonPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp" />
 </RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="brendenbernal.anagram.playGame"
+    android:background="@android:color/holo_blue_dark">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:minWidth="70dp" />
+
+    <ProgressBar
+        style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_above="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:indeterminate="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_toStartOf="@+id/button3"
+        android:minWidth="70dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:minWidth="70dp"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_toEndOf="@+id/button5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:minWidth="70dp"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:minWidth="70dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:minWidth="70dp"
+        android:layout_alignBaseline="@+id/button8"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_toStartOf="@+id/button8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:minWidth="70dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toStartOf="@+id/button1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:minWidth="70dp"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toEndOf="@+id/button4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Word"
+        android:ems="10"
+        android:id="@+id/editTextGameInput"
+        android:textAlignment="center"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:text="Enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGameEnter"
+        android:layout_alignBaseline="@+id/buttonGameBackspace"
+        android:layout_alignBottom="@+id/buttonGameBackspace"
+        android:layout_toEndOf="@+id/button6" />
+
+    <Button
+        android:text="Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGameBackspace"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/editTextGameInput"
+        android:layout_toStartOf="@+id/button7" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewScore"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/buttonGameEnter"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/buttonExit"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

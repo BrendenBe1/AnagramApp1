@@ -39,7 +39,8 @@ public class playGame extends AppCompatActivity {
         Log.d("spinner play game", difficultyDecision);
 
 
-        String[] letterArray = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+        String[] letterArray = {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"};
+        String[] vowelArray = {"a", "e", "i", "o", "u"};
 
         Random ran = new Random();
         int randomInt;
@@ -48,15 +49,37 @@ public class playGame extends AppCompatActivity {
         String[] buttonValue = {"a", "b", "c", "d", "e", "f", "g", "h"};
 
         int i = 0;
-        while( i < 8)
+        int j=0;
+        while( i < 5)
         {
-            randomInt = ran.nextInt(25);
+            randomInt = ran.nextInt(21);
             Log.d("random int", String.valueOf(randomInt));
             String newButtonValue = letterArray[randomInt];
             Log.d("new character", newButtonValue);
             buttonValue[i] = newButtonValue;
             i++;
         }
+
+        while(j < 3)
+        {
+            randomInt = ran.nextInt(4);
+            Log.d("random int", String.valueOf(randomInt));
+            String newButtonValue = vowelArray[randomInt];
+            if(Arrays.asList(buttonValue).contains(newButtonValue))
+            {
+                Log.d("vowel in buttons", newButtonValue);
+                int q = 0;
+            }
+            else
+            {
+                Log.d("new character", newButtonValue);
+                buttonValue[i] = newButtonValue;
+                i++;
+                j++;
+            }
+
+        }
+
 
         Log.d("button value", String.valueOf(buttonValue));
 

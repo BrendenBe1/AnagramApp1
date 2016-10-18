@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="d20e09966ea0567e90869038cb872507f31338a9">
+        sha1="19a8c65c0bea1d701867b1edc81e9afe32b70bd1">
         <dex dex="/Users/bgsamz/Documents/OneDrive/Documents/School/Fall 2016/CS 399/AnagramApp1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_63b3e3c3566603aa8a6556a1509ab1fa036e9d34/classes.dex" />
     </item>
     <item
@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="e7539d45fdf50608a8d234cc9a69affeefbb4d6e">
+        sha1="17290b9c1362c0bedae8f9138dd1ac25d256d99e">
         <dex dex="/Users/bgsamz/Documents/OneDrive/Documents/School/Fall 2016/CS 399/AnagramApp1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_455a821c25980cd4b30884fc8c7b1f7566fa1579/classes.dex" />
     </item>
     <item
